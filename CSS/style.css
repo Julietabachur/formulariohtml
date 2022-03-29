@@ -1,0 +1,56 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: aquamarine;
+}
+
+
+h1, h2{
+    display:flex ;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 0.5rem;
+}
+
+
+fieldset{
+    margin: 5rem;
+    background-color: antiquewhite;
+    border-radius: 175px 175px 175px 175px;
+    -moz-border-radius: 175px 175px 175px 175px;
+    -webkit-border-radius: 175px 175px 175px 175px;
+    border: 0px solid #000000;
+    -webkit-box-shadow: 0px 0px 31px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 31px -2px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 31px -2px rgba(0,0,0,0.75);
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    padding: 5rem;
+}
+
+input{
+    display:flex;
+    justify-content: center;
+    margin: 0.5rem;
+}
+
+#obrasocial{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+#obrasocial div{
+    display: flex;
+    flex-flow: row wrap;
+    justify-items:flex-start;
+    align-items: center;
+}
