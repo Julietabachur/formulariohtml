@@ -24,18 +24,22 @@
         <fieldset>
             <form action="">
                 <h1>Terminal de turnos</h1>
-                <label for="nombre">Nombre completo</label>
-                <input type="text" name="" id="nombre" placeholder="Nombre completo">
-                <br>
-                <label for="email">Email</label>
-                <input type="email" name="email" id="email" placeholder="Email">
-                <br>
-                <label for="DNI">DNI</label>
-                <input type="number" name="DNI" id="DNI" placeholder="DNI">
-                <br>
-                <label for="Fecha de nacimiento">Fecha de nacimiento</label>
-                <input type="date" name="Fecha de nacimiento" id="Fecha de nacimiento" placeholder="Fecha de nacimiento">
-                <br>                
+                <div class="inputs">
+                    <div>
+                        <label for="nombre">Nombre completo</label>
+                        <input class="input-texto" type="text" name="" id="nombre" placeholder="Nombre completo">
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input class="input-texto" type="email" name="email" id="email" placeholder="Email">
+                    </div>                                     
+                </div>
+                <div class="inputs">
+                    <label for="DNI">DNI</label>
+                    <input class="input-texto" type="number" name="DNI" id="DNI" placeholder="DNI">
+                    <label for="Fecha de nacimiento">Fecha de nacimiento</label>
+                    <input class="input-texto" type="date" name="Fecha de nacimiento" id="Fecha de nacimiento" placeholder="Fecha de nacimiento">
+                </div>
                 <h2>Obra social</h2>
                 <div id="obrasocial">
                     <div>
@@ -51,12 +55,12 @@
                         <input type="radio" name="Obra social" id="luis pasteur">
                     </div>
                 </div>    
-                <br>
-                <label for="fecha_turno">Fecha del turno</label>
-                <input type="date" name="fecha_turno" id="fecha_turno">
-                <br>
-                <label for="hora_turno">Horario</label>
-                <input type="time" name="hora_turno" id="hora_turno">
+                <div class="inputs">
+                    <label for="fecha_turno">Fecha del turno</label>
+                    <input class="input-texto" type="date" name="fecha_turno" id="fecha_turno">
+                    <label for="hora_turno">Horario</label>
+                    <input class="input-texto" type="time" name="hora_turno" id="hora_turno">
+                </div>
             </form>
         </fieldset>
     </main>

@@ -14,6 +14,7 @@ h1, h2{
     flex-flow: row wrap;
     justify-content: center;
     margin: 0.5rem;
+    text-align: center;
 }
 
 
@@ -53,4 +54,27 @@ input{
     flex-flow: row wrap;
     justify-items:flex-start;
     align-items: center;
+}
+
+.inputs{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content:center;
+    margin: 1rem 0;
+}
+
+.inputs div{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+label{
+    font-size: 1.2rem;
+}
+
+.input-texto{    
+    width: 12rem;
 }
